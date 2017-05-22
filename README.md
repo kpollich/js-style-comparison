@@ -25,6 +25,10 @@ https://github.com/airbnb/javascript/tree/master/react
 
 Standard is more of a "full package" than something like Airbnb's style guide in that it provides linting, automatic code fixing, and abstracts its own configuration away. Developers give up the luxury of configuring the ruleset for themselves in exchange for subscribing to the conventions put forth by Standard. This eliminates all bikeshedding and debate altogether, and Standard's goal is to provide a complete style package that allows developers to "just pick something". It's worth noting that Standard disallows the use of semicolons globally except in edge cases.
 
+https://standardjs.com
+
+https://github.com/feross/standard
+
 ## Pros
 
 * "Set it and forget it"
@@ -36,7 +40,3 @@ Standard is more of a "full package" than something like Airbnb's style guide in
 
 * Mostly static and rigid configuration
 * No semicolons can be jarring, and introduces edge cases
-
-https://standardjs.com
-
-https://github.com/feross/standard
