@@ -1,6 +1,6 @@
 # JavaScript Style Comparisons
 
-JavaScript code style is typically a point of heated contention among the JavaScript community. This is a space with an enormous room for opinion as well as ego. When settling on code style conventions, it's important to find one ruleset and stick to it as much as possible. Arguments about styling only serve as noise that reduces productivity and increases frustration.
+JavaScript code style is typically a point of heated contention among the JavaScript community. This is a space with enormous room for opinion as well as ego. When settling on code style conventions, it's important to find one ruleset and stick to it as much as possible. Arguments about styling only serve as noise that reduces productivity and increases frustration.
 
 ## Airbnb's JavaScript Style Guide
 
@@ -10,13 +10,33 @@ https://github.com/airbnb/javascript
 
 https://github.com/airbnb/javascript/tree/master/react
 
+## Pros
+
+* Extensible and flexible
+* Install plugins for popular libraries, etc
+* Get a solid starting point and then configure based on personal/team style preferences
+
+## Cons
+
+* Debate about specific rules and configuration options
+* Manage config files across separate projects as they change
+
 ## JavaScript Standard Style / Standard JS
 
 Standard is more of a "full package" than something like Airbnb's style guide in that it provides linting, automatic code fixing, and abstracts its own configuration away. Developers give up the luxury of configuring the ruleset for themselves in exchange for subscribing to the conventions put forth by Standard. This eliminates all bikeshedding and debate altogether, and Standard's goal is to provide a complete style package that allows developers to "just pick something". It's worth noting that Standard disallows the use of semicolons globally except in edge cases.
 
+## Pros
+
+* "Set it and forget it"
+* Single dependency, no plugin configurations, etc
+* No bikeshedding
+* No managing configs across multiple projects
+
+## Cons
+
+* Mostly static and rigid configuration
+* No semicolons can be jarring, and introduces edge cases
+
 https://standardjs.com
 
 https://github.com/feross/standard
-
-
-
