@@ -1,0 +1,12 @@
+{
+  "name": "standard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "marked": "^0.3.6"
+  }
+}
